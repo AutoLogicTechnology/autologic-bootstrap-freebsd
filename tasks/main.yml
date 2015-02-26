@@ -1,4 +1,4 @@
 ---
 
 - name: Install Python using PKG
-  raw: "pkg install python"
+  raw: "pkg install -y python"
