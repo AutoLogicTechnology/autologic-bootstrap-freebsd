@@ -1,2 +1,18 @@
-# autologic-bootstrap-freebsd
-Autologic's FreeBSD bootstrap Role will install all requirements to get Ansible working
+# Bootstrap: FreeBSD
+
+This is a very simple Role designed to "bootstrap" FreeBSD 10 with a Python 2.7 installation. Without this, a very minimal FreeBSD 10 installation won't support Ansible modules (except for the odd exception, such as the [raw](http://docs.ansible.com/raw_module.html) module, which this Role actually uses.)
+
+## Note
+
+This is Role may seem like a waste of time and space, but if the need to make the bootstrap process more complicated ever arises, then there is a Role in place to work with.
+
+## License
+
+GPLv3
+
+Author Information
+------------------
+
+- Michael Crilly
+- Autologic Technology Ltd
+- http://www.mcrilly.me/

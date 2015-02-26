@@ -1,0 +1,8 @@
+---
+galaxy_info:
+  author: Michael Crilly
+  description: FreeBSD 10 Ansible bootstrap Role
+  company: Autologic Technology Ltd
+  license: GPLv3
+  min_ansible_version: 1.8
+dependencies: []
