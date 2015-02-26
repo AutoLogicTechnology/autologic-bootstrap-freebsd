@@ -2,4 +2,3 @@
 
 - name: Install Python using PKG
   raw: "pkg install python"
-  when: ansible_os_family == "FreeBSD"
